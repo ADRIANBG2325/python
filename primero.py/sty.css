@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdeeee;
+    display: flex;/*caja flexible*/
+    justify-content: center;/*centra el contenido horizontalmente*/
+    align-items: center;/*centra el contenido verticalmente*/
+    height: 100vh;/*ocupa toda la altura de la pantalla*/
+    margin: 0;/*elimina los margenes predertimina*/
+}
+
+/* Contenedor del formulario */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Caja de inicio de sesión */
+.login-box {
+    background-color: white;
+    padding: 20px;/*espacio interno*/
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);/*resalta sombra*/
+    text-align: center;/*alineacion centrada*/
+    width: 350px;/*ancho fijo*/
+}
+
+/* Títulos */
+h2 {
+    color: #6512c4;
+    margin-bottom: 5px;/* espacio inferior*/
+}
+
+p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+/* Grupos de entrada */
+.input-group {
+    display: flex;/*alinea los elemtentos*/
+    align-items: center;
+    background-color: #e7dfdf;
+    border-radius: 5px;/*bordes redondeados*/
+    padding: 5px;/*espacio interno*/
+    border: 1px solid #0c0202;/*borde deelgado gris*/
+}
+
+.input-group input {
+    flex: 1;
+    border: none;
+    background: none;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Iconos */
+.icon {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #111cb4;
+}
+
+/* Botón de alternar contraseña */
+.eye-password {
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 16px;/*tamaño icono*/
+    color: #947b7b;
+}
+
+/* Botón de inicio de sesión */
+button {
+    width: 100%; /*hace que el boton ocupe todo el ancho*/
+    background-color: #2d12c4;/*color de fondo*/
+    color: white;/*texto*/
+    border: none;
+    padding: 10px;
+    border-radius: 5px;/*bordes redondeados*/
+    font-size: 16px;
+    cursor: pointer;/*manita*/
+    margin-top: 15px;/*boton color cambia*/
+}
+
+button:hover {
+    background-color: #2b10a3;
+}

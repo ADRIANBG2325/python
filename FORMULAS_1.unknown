@@ -1,0 +1,43 @@
+print("BIENVENIDO AL SISTEMA")
+print("OPCIONES DISPONIBLES")
+print("1--->X TABLA")
+print("2--->PAR IMPAR")
+print("3.-IF ANIDADO")
+print("4.-FORMULA")
+print("5.-N-° CONTROL")
+opcion=int(input("SELECIONA LA OPCION QUE DESEAS"))
+if opcion <=5 and opcion >=1:
+     
+    if (opcion == 1):
+     x=int(input("DIME QUE TABLA DESEAS")) 
+     a=10
+     while a >= 1: #ciclo
+       print (f"{x} * {a} = {x*a}")
+       a-=1
+       '''hola mundo 
+      entero de mexico
+      y sus alrededores'''
+       
+    elif (opcion == 2):
+     n1= int(input("INGRESA EL PRIMER NUMERO----->"))
+     if n1 % 2 ==0:
+        print ("EL NUMEOR ES PAR")
+     else:
+        print("EL NUMERO ES IMPAR")
+
+    elif (opcion == 3):
+       n1=int(input("INGRESA TU CALIFICACION------->"))
+       if n1==100:
+          print ("EXCELENTE FELICIDADES")
+       elif n1<=99 and n1>=90:
+          print ("MUY BIEN")
+       elif n1<=89 and n1>=80:
+          print ("BIEN")
+       elif n1<=79 and n1>=70:
+          print ("ALUMNO REGULAR")
+       else:
+          print("ALUMNO IRREGULAR")
+
+
+else:
+     print("Error verifique los datos")
