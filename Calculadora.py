@@ -98,6 +98,6 @@ button_n6.place(x=90, y=190)
 button_n7.place(x=130, y=190)
 button_n8.place(x=170, y=190)
 button_n9.place(x=210, y=190)
-
+print("hola")
 app.geometry("500x300")
 app.mainloop()
